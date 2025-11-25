@@ -11,6 +11,7 @@ public class App {
         // Cat = Referenztyp
 
         Cat cat = new Cat();
+        // IMPLIZITE Typumwandlung Cat --> String
         output("Blick von aussen: " + cat);
         output("Blick von innen: " + cat.getInstanceVariable());   
         // cat.tellYourAddress();
